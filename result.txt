@@ -1,0 +1,13 @@
+Overall Loss: 0.278
+Overall Accuracy: 0.8799999952316284
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+      Female       0.91      0.83      0.87      1752
+        Male       0.86      0.92      0.89      1929
+
+    accuracy                           0.88      3681
+   macro avg       0.88      0.88      0.88      3681
+weighted avg       0.88      0.88      0.88      3681

@@ -5,6 +5,17 @@ Implementation of the [Oxford VGGFace](http://www.robots.ox.ac.uk/~vgg/software/
 + Models are converted from original Torch7 networks.  
 + The data used for this project is the [OUI-Adience Face Image Project](https://talhassner.github.io/home/projects/Adience/Adience-data.html#agegender), which contains unfiltered faces for gender and age classification.
 
+## Contents:
+
++ **README.md**: introduction and user guide
++ **gender\_cls\_model.h5**: trained model (including architecture and weights)
++ **model_architecture.txt**: model architecture (text)
++ **result.txt**: model evaluation result
++ **get_keras_weights.py**: script to convert Torch7 model to Keras
++ **train.py**: train model
++ **evaluate.py**: evaluate model
++ **TF_implementation.ipynb**: development notebook
+
 
 ## Steps:
 
