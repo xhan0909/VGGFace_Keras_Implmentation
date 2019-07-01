@@ -22,8 +22,8 @@ Command:
 
 PyTorch model weights are converted to TensorFlow weights using pytorch2keras API (https://github.com/nerox8664/pytorch2keras).
 
-    + Please first run `$pip install pytorch2keras`
-    + Then run `$python get_keras_weights.py` to convert pytorch weights (VGG_FACE.pth) to keras weights (keras_weights.h5)
++ Please first run `$pip install pytorch2keras`  
++ Then run `$python get_keras_weights.py` to convert pytorch weights (VGG_FACE.pth) to keras weights (keras_weights.h5)
 
 
 (3) Model training  
