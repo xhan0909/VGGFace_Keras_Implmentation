@@ -18,15 +18,21 @@ Command:
 ==> Two file will be created: VGG_FACE.py (model) and VGG_FACE.pth (weights)
 
 
-(2) Convert PyTorch to TensorFlow (tf.keras):
+(2) Convert PyTorch to TensorFlow (tf.keras):  
 
-+ Weights: 
 PyTorch model weights are converted to TensorFlow weights using pytorch2keras API (https://github.com/nerox8664/pytorch2keras).
 
-	+ Please first run `$pip install pytorch2keras`
-	+ Then run `$python get_keras_weights.py` to convert pytorch weights (VGG_FACE.pth) to keras weights (keras_weights.h5)
+    + Please first run `$pip install pytorch2keras`
+    + Then run `$python get_keras_weights.py` to convert pytorch weights (VGG_FACE.pth) to keras weights (keras_weights.h5)
 
 
-+ New model: 
-Either run the script `$python train.py` or use the jupyter notebook TF_implmentation.ipynb to train the model.
+(3) Model training  
 
+Either run `$python train.py` or use the jupyter notebook `TF_implmentation.ipynb` to train the model.
+
+The output model (architecture and weights) is stored in the same directory as `gender_cls_model.h5`.
+
+
+(4) Model evaluation  
+
+Run `$python evaluate.py` to test the model and check the overall and class accuracy on the validation set.
